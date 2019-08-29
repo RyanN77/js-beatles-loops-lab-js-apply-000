@@ -26,8 +26,6 @@ function iLoveTheBeatles(number){
   var filtered = emptyArray.filter(function (clean) {
   return clean !== null;
   });
-
-  console.log()
   
-  return emptyArray;
+  return filtered;
 }
