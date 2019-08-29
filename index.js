@@ -23,7 +23,9 @@ function iLoveTheBeatles(number){
   } while (number < 15)
   
   for (var c = 0; c < 15; c++){
-    
+    if(emptyArray[c]){
+      
+    }
   }
   return emptyArray;
 }
