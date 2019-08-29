@@ -23,11 +23,11 @@ function iLoveTheBeatles(number){
     number++
   } while (number < 15)
   
-  var filtered = emptyArray.filter(function (el) {
-  return el !== null;
+  var filtered = emptyArray.filter(function (clean) {
+  return clean !== null;
   });
 
-  console.log(filtered)
+  console.log()
   
   return emptyArray;
 }
