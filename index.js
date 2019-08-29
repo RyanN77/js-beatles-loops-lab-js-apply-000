@@ -25,8 +25,9 @@ function iLoveTheBeatles(number){
   
   for (var c = 0; c < 15; c++){
     if(emptyArray[c]){
-      
+      cleanArray.push(emptyArray[c]);
     }
   }
+  console.log(cleanArray)
   return emptyArray;
 }
